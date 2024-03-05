@@ -154,13 +154,13 @@ class _$PetSerializer implements PrimitiveSerializer<Pet> {
           ) as BuiltList<String>;
           result.photoUrls.replace(valueDes);
           break;
-        case r'tags':
-          final valueDes = serializers.deserialize(
-            value,
-            specifiedType: const FullType(BuiltList, [FullType(Tag)]),
-          ) as BuiltList<Tag>;
-          result.tags.replace(valueDes);
-          break;
+        // case r'tags':
+        //   final valueDes = serializers.deserialize(
+        //     value,
+        //     specifiedType: const FullType(BuiltList, [FullType(Tag)]),
+        //   ) as BuiltList<Tag>;
+        //   result.tags.replace(valueDes);
+        //   break;
         case r'status':
           final valueDes = serializers.deserialize(
             value,
