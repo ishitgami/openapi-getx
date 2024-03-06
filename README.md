@@ -34,7 +34,7 @@ The project follows a well-defined directory structure to keep your code organiz
 
 - **Main.dart**: The entry point of the Flutter application.
 
-- **openapi**:The Dart code for OpenAPI integration was generated using openapi-generator. You can find the OpenAPI specification [here](https://petstore3.swagger.io/api/v3/openapi.json).
+- **openapi**:The Dart code for OpenAPI integration was generated using openapi-generator. You can find the OpenAPI JSON file [here](https://petstore3.swagger.io/api/v3/openapi.json).
 
 ## Getting Started
 
