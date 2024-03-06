@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:openapi_getx/utils/routes.dart';
 
 class HomeScreenAppBar extends StatelessWidget {
   const HomeScreenAppBar({
@@ -27,9 +29,14 @@ class HomeScreenAppBar extends StatelessWidget {
             ),
           ],
         ),
-        CircleAvatar(
-          backgroundColor: Colors.red[100],
-          child: const Text('I'),
+        GestureDetector(
+          onTap: () {
+            Get.toNamed(RouteHelper.profile);
+          },
+          child: CircleAvatar(
+            backgroundColor: Colors.red[100],
+            child: const Text('I'),
+          ),
         ),
       ],
     );
