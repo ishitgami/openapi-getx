@@ -26,7 +26,7 @@ class ColorLight {
 }
 
 class ColorDark {
-  static const Color primary =Color(0xFF0065ff);
+  static const Color primary =Color.fromARGB(255, 9, 255, 0);
   static const Color background = Color(0xFF181c1e);
   static const Color card = Color(0xFF424242);
   static const Color fontTitle = Color(0xFFFFFFFF);
