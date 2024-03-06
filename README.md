@@ -60,10 +60,10 @@ The project follows a well-defined directory structure to keep your code organiz
 
 ## Note
 
-- **OpenAPI**: The app utilizes the PetStore OpenAPI for backend integration. You can find the OpenAPI documentation [here](https://petstore3.swagger.io/#/).
+- **OpenAPI**: The app utilizes the PetStore OpenAPI for backend integration. You can find the OpenAPI swagger [here](https://petstore3.swagger.io/#/).
 
 - **Image Usage**: Images displayed in the app are randomly selected to enhance the user experience.
 
 ## Contact
 
-For any inquiries or assistance, feel free to contact us at [ishitgami01@gmail.com](mailto:ishitgami01@gmail.com).
+For any inquiries or assistance, feel free to contact me at [ishitgami01@gmail.com](mailto:ishitgami01@gmail.com).
